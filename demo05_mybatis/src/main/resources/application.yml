@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///springboot?serverTimezone=UTC
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml #指定Mapper的映射文件
+  type-aliases-package: com.example.demo05_mybatis.bean
+  #config-location: #指定mybatis核心配日志文件

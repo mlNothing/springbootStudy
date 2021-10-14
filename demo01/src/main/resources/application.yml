@@ -1,0 +1,13 @@
+server:
+  port: 8888
+person: {name: zhangsan,age: 20} #对象键值对
+address: [bei,sd] #数组
+add:
+  - beijing
+  - sh
+msg1: 'he \n wo'  # 原样输出
+msg2: "he \n wo"  #进行转移
+person1:
+  name: ${person.name} #获取值
+
+
